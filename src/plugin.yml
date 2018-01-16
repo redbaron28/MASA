@@ -1,0 +1,14 @@
+name: MASA
+version: 1.0
+main: com.theaudiobros.gabriel.masaverse
+load: startup
+commands:
+   unloadworld:
+     description: Unloads the world.
+     default: op
+   tpworld:
+     description: Tps
+     default: op
+   loadSchem:
+     description: Tps
+     default: op

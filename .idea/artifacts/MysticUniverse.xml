@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MysticUniverse">
+    <output-path>$PROJECT_DIR$/out/production</output-path>
+    <root id="archive" name="MysticUniverse.jar">
+      <element id="module-output" name="MASA" />
+    </root>
+  </artifact>
+</component>
