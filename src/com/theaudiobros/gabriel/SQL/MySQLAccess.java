@@ -1,6 +1,8 @@
-package SQL;
+package com.theaudiobros.gabriel.SQL;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MySQLAccess {
 
@@ -32,8 +34,14 @@ public class MySQLAccess {
         }
     }
 
-    public void getData() throws SQLException {
-        ResultSet result = statement.executeQuery("SELECT * FROM PlayerData WHERE BALANCE = 0;");
+    public List<String> getData(String FROM, String WHERE, String COLUMNLABEL) throws SQLException {
+        ResultSet result = statement.executeQuery("SELECT * FROM " + FROM + " WHERE " + WHERE + " = 0;");
+        List<String> data = new ArrayList<>();
+        while (result.next()) {
+            String temp = result.getString(COLUMNLABEL);
+            data.add(temp);
+        }
+        return data;
     }
 
 }
