@@ -31,15 +31,16 @@ public class Info {
        // if(file.exists())
           //  rocketUUID = null;
 
-        Bukkit.broadcastMessage("File Created");
-        rocketData.set("info", user + ":" + rocketUUID + ":" + tier + ":" + fuel);
-
         try {
             file.createNewFile();
+            rocketData.set("info", user + ":" + rocketUUID + ":" + tier + ":" + fuel);
             rocketData.save(file);
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Bukkit.broadcastMessage("File Created");
+
     }
 
     public static String getInfo(String rocketUUID, String data){
