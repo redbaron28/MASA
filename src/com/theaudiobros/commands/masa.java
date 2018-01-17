@@ -17,7 +17,10 @@ public class masa implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         Player player = (Player) sender;
         if(args[0].toString() == "feedback") {
-            //TODO
+            if (args[1].toString == null);
+                 player.sendMessage("You must enter a message")
+                     else (
+                     
         }
         return false;
     }
