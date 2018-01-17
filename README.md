@@ -2,7 +2,7 @@
 > Minecraft Aeronautics and Space Administration
 
 MASA is the next generation minecraft universe. This is a large plugin to spigot that runs off of vanilla Minecraft.
-
+```sh
            /\
           /  \
          /^^^^\	           #     #          #           #####           #    
@@ -24,6 +24,7 @@ MASA is the next generation minecraft universe. This is a large plugin to spigot
        /--------\
       /_|######|_\
         ^^^^^^^^
+```
 
 ## Installation
 
