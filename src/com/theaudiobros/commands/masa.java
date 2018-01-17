@@ -22,7 +22,7 @@ public class masa implements CommandExecutor {
              player.sendMessage("You must enter a message");
          }
             else {
-                File feedback = new File(com.theaudiobros.masa.MASA.getPlugin().getDataFolder(), File.separator + "feedback";
+                File feedback = new File(com.theaudiobros.masa.MASA.getPlugin().getDataFolder(), File.separator + "feedback");
                 File file = new File(feedback, File.separator + player.getName() + Calendar.getInstance().toString() + ".yml");
                 FileConfiguration feedbackdata = YamlConfiguration.loadConfiguration(file);
                  Bukkit.broadcastMessage("File Created");
