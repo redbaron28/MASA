@@ -1,6 +1,8 @@
 # MASA
 > Minecraft Aeronautics and Space Administration
 
+NOTE: This is not runnable at the moment and this is just a place to manage the plugin, it will be release as soon as possible as a working version.
+
 MASA is the next generation minecraft universe. This is a large plugin to spigot that runs off of vanilla Minecraft.
 ```sh
            /\
