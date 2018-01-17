@@ -1,6 +1,6 @@
 name: MASA
 version: 1.0
-main: com.theaudiobros.gabriel.masaverse
+main: com.theaudiobros.masa.MASA
 load: startup
 commands:
    unloadworld:
