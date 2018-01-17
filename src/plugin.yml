@@ -12,3 +12,6 @@ commands:
    loadSchem:
      description: Tps
      default: op
+   masa:
+        description: MASA Help
+        default: op
