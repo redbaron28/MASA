@@ -5,8 +5,8 @@ MASA is the next generation minecraft universe. This is a large plugin to spigot
 ```sh
            /\
           /  \
-         /^^^^\	           #     #          #           #####           #    
-         |----|	           ##   ##         # #         #     #         # #
+         /^^^^\	             #     #          #           #####           #    
+         |----|	             ##   ##         # #         #     #         # #
          /    \                # # # #        #   #        #              #   # 
         (|(||)|)               #  #  #       #     #        #####        #     #
          |^^^^|                #     #  ###  #######  ###        #  ###  #######
