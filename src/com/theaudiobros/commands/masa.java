@@ -16,8 +16,9 @@ public class masa implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         Player player = (Player) sender;
-
-        //TODO MAIN COMMAND
+        if(!(args[0].toString() == null)) {
+            Bukkit.feedback(args[0].toString(), true);
+            
 
         return false;
     }
