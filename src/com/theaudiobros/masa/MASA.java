@@ -50,7 +50,8 @@ public class MASA extends JavaPlugin{
         getCommand("loadSchem").setExecutor(new loadSchem());
         getCommand("help").setExecutor(new help());
         getCommand("masa").setExecutor(new com.theaudiobros.commands.masa());
-
+        getCommand("feedback").setExecutor(new feedback());
+        
         registerEvents(this, new JoinGenerateListener(), new SignCheck(), new ClickSign(), new Interact(), new loadEvent());
 
         createConfig();
