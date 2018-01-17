@@ -36,7 +36,7 @@ Drag and drop into your plugins folder.
 
 ```sh
 This plugin requires worldedit and a server running spigot.
-This plugin also has my sql support but can always use a flatfile database.
+This plugin  will also have my sql support but can always use a flatfile database.
 ```
 
 ## Usage example
